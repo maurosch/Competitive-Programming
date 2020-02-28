@@ -1,0 +1,76 @@
+\documentclass[twoside,12pt,a4paper,english]{book}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage[table]{xcolor}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{microtype}
+
+\usepackage{fouriernc}
+\usepackage[T1]{fontenc}
+
+\usepackage{graphicx}
+\usepackage{framed}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\usepackage{pifont}
+\usepackage{ifthen}
+\usepackage{makeidx}
+\usepackage{enumitem}
+
+\usepackage{titlesec}
+
+\usepackage{skak}
+\usepackage[scaled=0.95]{inconsolata}
+
+
+\usetikzlibrary{patterns,snakes}
+\pagestyle{plain}
+
+\definecolor{keywords}{HTML}{44548A}
+\definecolor{strings}{HTML}{00999A}
+\definecolor{comments}{HTML}{990000}
+
+\lstset{language=C++,frame=single,basicstyle=\ttfamily \small,showstringspaces=false,columns=flexible}
+\lstset{
+    literate={ö}{{\"o}}1
+            {ä}{{\"a}}1
+            {ü}{{\"u}}1
+}
+\lstset{xleftmargin=20pt,xrightmargin=5pt}
+\lstset{aboveskip=12pt,belowskip=8pt}
+
+\lstset{
+    commentstyle=\color{comments},
+    keywordstyle=\color{keywords},
+    stringstyle=\color{strings}
+}
+
+\date{Draft \today}
+
+\usepackage[a4paper,vmargin=30mm,hmargin=33mm,footskip=15mm]{geometry}
+
+\title{\Huge Competitive Programmer's Handbook}
+\author{\Large Antti Laaksonen}
+
+\makeindex
+\usepackage[totoc]{idxlayout}
+
+\titleformat{\subsubsection}
+{\normalfont\large\bfseries\sffamily}{\thesubsection}{1em}{}
+
+\newcommand{\key}[1] {\textbf{#1}}
+
+\begin{document}
+
+\include{bfs}
+
+
+\cleardoublepage
+\printindex
+\end{document}

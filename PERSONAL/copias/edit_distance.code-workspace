@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"array": "cpp",
+			"initializer_list": "cpp",
+			"string_view": "cpp",
+			"utility": "cpp",
+			"ostream": "cpp",
+			"iostream": "cpp",
+			"*.tcc": "cpp",
+			"istream": "cpp",
+			"optional": "cpp",
+			"ratio": "cpp",
+			"system_error": "cpp",
+			"type_traits": "cpp",
+			"fstream": "cpp",
+			"chrono": "cpp",
+			"limits": "cpp",
+			"algorithm": "cpp",
+			"iosfwd": "cpp"
+		}
+	}
+}
