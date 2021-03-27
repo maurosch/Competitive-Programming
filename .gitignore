@@ -1,0 +1,7 @@
+#Archivos sin extensiones
+*
+!/**/
+!*.*
+
+#Archivos ejecutables
+*.exe
