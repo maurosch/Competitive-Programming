@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"__bit_reference": "cpp",
+			"__hash_table": "cpp",
+			"unordered_set": "cpp",
+			"vector": "cpp",
+			"complex": "cpp",
+			"limits": "cpp"
+		}
+	}
+}

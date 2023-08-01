@@ -5,3 +5,6 @@
 
 #Archivos ejecutables
 *.exe
+**/.DS_Store
+**/.vscode
+**/*.dSYM
